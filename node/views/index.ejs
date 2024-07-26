@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz de Adição</title>
+</head>
+<body>
+  <h1>Questão de Adição</h1>
+  <form action="/submit" method="post">
+    <p><%= question.num1 %> + <%= question.num2 %> = ?</p>
+    <input type="text" name="answer" required>
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
